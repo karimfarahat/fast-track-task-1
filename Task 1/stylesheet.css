@@ -1,0 +1,165 @@
+body{
+    margin: 8%;
+    padding: 0;
+    font-size: 15px;
+    font-family: Inter;
+    background-color:rgb(255, 248, 239);
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+  }
+  
+@font-face {
+    font-family: Inter-Bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+  }
+
+img{
+    width: 100%;
+}
+
+.main-icon{
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    background-color:rgb(255, 248, 239);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 8%;
+    width: 84%;
+    padding: 20px 0px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+ 
+nav > ul > li > a {
+    color: #6f6f6f;
+    display: flex;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(255, 76, 76);
+    color:rgb(255, 248, 239);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: Inter-Bold;
+    letter-spacing: 3px;
+}
+
+.container{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+
+}
+
+.right-container{
+    flex: 100%;
+}
+
+h1{
+    font-family: Inter-ExtraBold;
+    font-size: 40px;
+    margin: 0px 0px;
+
+}
+
+
+.caption{
+    display: flex;
+    margin: 15px 0px;
+    align-items:flex-start;
+    gap: 50px;
+}
+
+.caption-desc{
+    color: #6f6f6f;
+    flex: 130%;
+}
+
+.caption-desc > p{
+    padding: 0px;
+    margin:  2px;
+}
+
+.new-section{
+    background-color: black;
+    flex: auto;
+    padding: 0px 35px;
+}
+
+.new-section > h2{
+    font-family: Inter-ExtraBold;
+    font-size: 30px;
+    color: coral;
+}
+
+.new-section > ul > li > h3 {
+    font-size: 20px;
+    font-family: Inter-Bold;
+    color: rgb(255, 255, 255);
+}
+
+.new-section > ul > li > p {
+    color: #6f6f6f;
+}
+
+.new-section > ul {
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    margin-inline-start: 0;
+    margin: 0;
+}
+
+.new-section > ul > li {
+    border-bottom: 1px solid gray;
+    
+}
+
+.new-section > ul > li:last-child {
+    border: none;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.article{
+    display: flex;
+    margin-left: 10px;
+}
+
+.article-desc{
+    margin-left: 20px;
+}
+.article-desc > h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #a0a0a0;
+    font-family: Inter-Bold;
+
+}
+
+.article-desc > h3{
+font-family: Inter-ExtraBold;
+}
+.imgContainer{
+    width: 150px;
+    height: 220px;
+}
